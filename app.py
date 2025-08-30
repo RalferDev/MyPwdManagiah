@@ -16,10 +16,10 @@ class PasswordManagerApp(ctk.CTk):
         self.generated_password = ""
 
         # --- Window Configuration ---
-        self.title("Modern Password Manager")
-        self.geometry("600x500")
+        self.title("MyPwdManagiah")
+        self.geometry("650x300")
         ctk.set_appearance_mode("dark")
-        ctk.set_default_color_theme("blue")
+        ctk.set_default_color_theme("red_theme.json")
 
         # --- Main Tab View ---
         self.tab_view = ctk.CTkTabview(self, width=550)
@@ -37,17 +37,17 @@ class PasswordManagerApp(ctk.CTk):
 
         # --- Website URL ---
         ctk.CTkLabel(frame, text="Website URL:").grid(row=0, column=0, padx=10, pady=10, sticky="w")
-        self.gen_url_entry = ctk.CTkEntry(frame, width=300)
+        self.gen_url_entry = ctk.CTkEntry(frame, width=400)
         self.gen_url_entry.grid(row=0, column=1, padx=10, pady=10)
 
         # --- Username / Email ---
         ctk.CTkLabel(frame, text="Username or Email:").grid(row=1, column=0, padx=10, pady=10, sticky="w")
-        self.gen_username_entry = ctk.CTkEntry(frame, width=300)
+        self.gen_username_entry = ctk.CTkEntry(frame, width=400)
         self.gen_username_entry.grid(row=1, column=1, padx=10, pady=10)
 
         # --- Generated Password Display ---
         ctk.CTkLabel(frame, text="Generated Password:").grid(row=2, column=0, padx=10, pady=10, sticky="w")
-        self.password_display = ctk.CTkEntry(frame, width=300, state="readonly")
+        self.password_display = ctk.CTkEntry(frame, width=400, state="readonly")
         self.password_display.grid(row=2, column=1, padx=10, pady=10)
 
         # --- Buttons ---

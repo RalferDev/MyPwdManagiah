@@ -1,0 +1,66 @@
+{
+  "CTk": {
+    "fg_color": ["gray92", "gray14"]
+  },
+  "CTkToplevel": {
+    "fg_color": ["gray92", "gray14"]
+  },
+  "CTkFont": {
+    "family": "Segoe UI",
+    "size": 13,
+    "weight": "normal"
+  },
+  "CTkFrame": {
+    "corner_radius": 6,
+    "border_width": 0,
+    "fg_color": ["gray86", "gray17"],
+    "top_fg_color": ["gray81", "gray20"],
+    "border_color": ["gray65", "gray28"]
+  },
+  "CTkButton": {
+    "corner_radius": 6,
+    "border_width": 0,
+    "fg_color": ["#9B0000", "#E90000"],
+    "hover_color": ["#6D0000", "#A10000"],
+    "border_color": ["#9B0000", "#E90000"],
+    "text_color": ["#DCE4EE", "#DCE4EE"],
+    "text_color_disabled": ["gray74", "gray60"]
+  },
+  "CTkEntry": {
+    "corner_radius": 6,
+    "border_width": 2,
+    "fg_color": ["#F9F9FA", "#343638"],
+    "border_color": ["#979DA2", "#565B5E"],
+    "text_color": ["#000000", "#DCE4EE"],
+    "placeholder_text_color": ["gray52", "gray62"]
+  },
+  "CTkLabel": {
+    "corner_radius": 0,
+    "fg_color": "transparent",
+    "text_color": ["gray10", "#DCE4EE"]
+  },
+  "CTkTabview": {
+    "border_width": 1,
+    "fg_color": ["gray90", "gray25"],
+    "border_color": ["gray70", "gray34"],
+    "button_color": ["gray80", "gray22"],
+    "button_hover_color": ["gray70", "gray32"],
+    "text_color": ["gray10", "gray90"],
+    "segmented_button_fg_color": "transparent",
+    "segmented_button_selected_color": ["#9B0000", "#E90000"],
+    "segmented_button_selected_hover_color": ["#6D0000", "#A10000"],
+    "segmented_button_unselected_color": ["gray80", "gray22"],
+    "segmented_button_unselected_hover_color": ["gray70", "gray32"]
+  },
+  "CTkSegmentedButton": {
+    "corner_radius": 6,
+    "border_width": 2,
+    "fg_color": ["gray80", "gray22"],
+    "selected_color": ["#9B0000", "#E90000"],
+    "selected_hover_color": ["#6D0000", "#A10000"],
+    "unselected_color": ["gray80", "gray22"],
+    "unselected_hover_color": ["gray70", "gray32"],
+    "text_color": ["#DCE4EE", "#DCE4EE"],
+    "text_color_disabled": ["gray74", "gray60"]
+  }
+}
