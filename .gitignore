@@ -1,0 +1,22 @@
+# File di configurazione di ambienti e segreti
+# NON DEVE MAI ESSERE SU GITHUB
+.env
+
+# Cartelle di ambienti virtuali Python
+.venv/
+venv/
+ENV/
+
+# Cache e file generati da Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Cartelle di configurazione degli editor
+.idea/
+.vscode/
+
+# File di sistema operativo
+.DS_Store
+Thumbs.db
