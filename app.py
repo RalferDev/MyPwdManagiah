@@ -1,4 +1,4 @@
-# app.py
+
 import customtkinter as ctk
 from tkinter import messagebox
 import pyperclip  # To copy password to clipboard
